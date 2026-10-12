@@ -1,2 +1,3 @@
 .env
 hrassistenv
+data\faiss_index
