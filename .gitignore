@@ -1,3 +1,5 @@
 .env
 hrassistenv
 data\faiss_index
+data\faiss_index\index.faiss
+data\faiss_index\index.pkl
