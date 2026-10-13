@@ -21,11 +21,9 @@ DATA_FILE_PATH = os.path.join("data", "hr_policy.txt")
 VECTOR_STORE_PATH = os.path.join("data", "faiss_index")
 
 # MODELS
-# LLM_MODEL_NAME = "openai/gpt-oss-safeguard-20b"
+GUARD_MODEL_NAME = "openai/gpt-oss-safeguard-20b"
 LLM_MODEL_NAME = "openai/gpt-oss-120b"
-# LLM_MODEL_NAME = "qwen/qwen3.8-27b"
 EMBEDDING_MODEL_NAME = "jina-clip-v2"
-# EMBEDDING_MODEL_NAME = "jina-embeddings-v4"
 
 # TEXT SPLITTING CONFIG
 CHUNK_SIZE = 500
